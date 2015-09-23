@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/capistrano-supervisord/version', __FILE__)
+require File.expand_path('../lib/capistrano/supervisord/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Yamashita Yuu"]
@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Capistrano::Supervisord::VERSION
 
-  gem.add_dependency("capistrano", "< 3")
+  gem.add_dependency("capistrano", "~> 3.1")
 end
